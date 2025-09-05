@@ -5,7 +5,7 @@ import yt_dlp
 import cv2
 
 # YOLO 모델 불러오기 
-model = YOLO("C:\Potenup\OpenCV-Study\models\yolo11n.pt")
+model = YOLO(".\models\yolo11n.pt")
 
 video_url = "https://youtu.be/S5nsDT5oU90"
 
